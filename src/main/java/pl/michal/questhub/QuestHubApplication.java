@@ -10,4 +10,5 @@ public class QuestHubApplication {
         SpringApplication.run(QuestHubApplication.class, args);
     }
 
+
 }
