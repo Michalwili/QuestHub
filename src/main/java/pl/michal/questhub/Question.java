@@ -1,9 +1,15 @@
 package pl.michal.questhub;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@ToString
 public class Question {
 
     private String name;
-
 
     public Question() {
 
@@ -13,18 +19,4 @@ public class Question {
         this.name = name;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    @Override
-    public String toString() {
-        return "Question{" +
-                "name='" + name + '\'' +
-                '}';
-    }
 }
